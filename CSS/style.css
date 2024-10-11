@@ -7,10 +7,26 @@ div {
 nav {
   display: inline-block;
   width: 80%;
+  background-color: burlywood;
 }
 
 nav img {
   width: 10%;
+}
+.skip-link {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  background-color: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 100;
+  text-decoration: none;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 10px;
 }
 body {
   font-size: 150%;
