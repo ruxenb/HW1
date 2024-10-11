@@ -1,6 +1,8 @@
 div{
   display: flex;
   flex-wrap: wrap;
+  grid-template-columns: 40% 40%;
+  gap: 20%;
 }
 body {
   font-size: 150%;
